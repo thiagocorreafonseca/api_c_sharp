@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\api_c_sharp\\Control.Api\\Control.Api.csproj": {}
+    "C:\\Projetos\\api_c_sharp\\Control.Infrastructure\\Control.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\api_c_sharp\\Control.Api\\Control.Api.csproj": {
+    "C:\\Projetos\\api_c_sharp\\Control.Infrastructure\\Control.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\api_c_sharp\\Control.Api\\Control.Api.csproj",
-        "projectName": "Control.Api",
-        "projectPath": "C:\\Projetos\\api_c_sharp\\Control.Api\\Control.Api.csproj",
+        "projectUniqueName": "C:\\Projetos\\api_c_sharp\\Control.Infrastructure\\Control.Infrastructure.csproj",
+        "projectName": "Control.Infrastructure",
+        "projectPath": "C:\\Projetos\\api_c_sharp\\Control.Infrastructure\\Control.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\thiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\api_c_sharp\\Control.Api\\obj\\",
+        "outputPath": "C:\\Projetos\\api_c_sharp\\Control.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -43,12 +43,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -60,9 +54,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\api_c_sharp\\Control.Api\\Control.Api.csproj": {}
+    "C:\\Projetos\\api_c_sharp\\Control.UnitTests\\Control.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\api_c_sharp\\Control.Api\\Control.Api.csproj": {
+    "C:\\Projetos\\api_c_sharp\\Control.UnitTests\\Control.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\api_c_sharp\\Control.Api\\Control.Api.csproj",
-        "projectName": "Control.Api",
-        "projectPath": "C:\\Projetos\\api_c_sharp\\Control.Api\\Control.Api.csproj",
+        "projectUniqueName": "C:\\Projetos\\api_c_sharp\\Control.UnitTests\\Control.UnitTests.csproj",
+        "projectName": "Control.UnitTests",
+        "projectPath": "C:\\Projetos\\api_c_sharp\\Control.UnitTests\\Control.UnitTests.csproj",
         "packagesPath": "C:\\Users\\thiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\api_c_sharp\\Control.Api\\obj\\",
+        "outputPath": "C:\\Projetos\\api_c_sharp\\Control.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,9 +44,25 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
             }
           },
           "imports": [
@@ -60,9 +76,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
